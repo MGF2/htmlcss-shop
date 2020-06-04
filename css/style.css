@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  background-color: white;
+  margin: 0 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 620px;
+  display: block;
+  text-align: center;
+}
+.icon {
+  width: 220px;
+  height: 240px;
+}
+.object {
+  display: inline-block;
+  background-color: lightgrey;
+  height: 300px;
+  width: 250px;
+  text-align: center;
+  line-height: 33;
+  position: relative;
+}
+.row {
+  margin-left: 0 auto;
+  padding-bottom: 20px;
+}
+.quadrato {
+   width: 40px;
+   height: 18px;
+   text-align: center;
+   font-weight: bold;
+   position: absolute;
+   right: 0;
+   z-index: 2;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+span {
+  line-height: normal;
+}
+.object:hover {
+  background-color: pink;
+  opacity: 0.4;
+}
