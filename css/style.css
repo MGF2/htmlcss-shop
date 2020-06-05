@@ -53,7 +53,20 @@ body {
 span {
   line-height: normal;
 }
+.cuore {
+  display: none;
+  font-size: 30px;
+  position: absolute;
+  bottom: 5px;
+  color: red;
+  padding: 0px 95px;
+}
+.object:hover .cuore {
+  background-color: pink;
+  opacity: 0.6;
+  display: inline-block;
+}
 .object:hover {
   background-color: pink;
-  opacity: 0.4;
+  opacity: 0.6;
 }
